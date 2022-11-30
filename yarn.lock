@@ -8581,6 +8581,49 @@ __metadata:
   languageName: node
   linkType: hard
 
+"hardhat-smartcontract-lottery-fcc@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "hardhat-smartcontract-lottery-fcc@workspace:."
+  dependencies:
+    "@chainlink/contracts": ^0.5.1
+    "@chainlink/test-helpers": ^0.0.7-alpha
+    "@chainlink/token": ^1.1.0
+    "@ethersproject/abi": ^5.7.0
+    "@ethersproject/address": ^5.7.0
+    "@ethersproject/bignumber": ^5.7.0
+    "@ethersproject/bytes": ^5.7.0
+    "@ethersproject/constants": ^5.7.0
+    "@ethersproject/contracts": ^5.7.0
+    "@ethersproject/hash": ^5.7.0
+    "@ethersproject/providers": ^5.7.1
+    "@ethersproject/solidity": ^5.7.0
+    "@ethersproject/transactions": ^5.7.0
+    "@ethersproject/wallet": ^5.7.0
+    "@ethersproject/web": ^5.7.1
+    "@nomiclabs/hardhat-ethers": "npm:hardhat-deploy-ethers@^0.3.0-beta.13"
+    "@nomiclabs/hardhat-etherscan": ^3.1.0
+    "@nomiclabs/hardhat-waffle": ^2.0.3
+    "@openzeppelin/contracts": ^4.7.3
+    babel-eslint: ^10.1.0
+    chai: ^4.3.6
+    dotenv: ^16.0.3
+    ethereum-waffle: ^3.4.4
+    ethers: ^5.7.1
+    hardhat: ^2.11.2
+    hardhat-contract-sizer: ^2.6.1
+    hardhat-deploy: ^0.11.15
+    hardhat-deploy-ethers: ^0.3.0-beta.13
+    hardhat-gas-reporter: ^1.0.9
+    mocha: ^10.1.0
+    mocha-junit-reporter: ^2.1.1
+    prettier: ^2.7.1
+    prettier-plugin-solidity: ^1.0.0-rc.1
+    solhint: ^3.3.7
+    solidity-coverage: ^0.8.2
+    yarn: ^1.22.19
+  languageName: unknown
+  linkType: soft
+
 "hardhat@npm:^2.11.2":
   version: 2.11.2
   resolution: "hardhat@npm:2.11.2"
@@ -13419,49 +13462,6 @@ __metadata:
   checksum: 3db4dfe5c793f40ac7e0be689a1f75d05e6f2ca0c66189aeb62adab8c436b857ab4420a419251ee60370d41d957a55698fc5e23ab1e1b41715f33217bc4bb558
   languageName: node
   linkType: hard
-
-"root-workspace-0b6124@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "root-workspace-0b6124@workspace:."
-  dependencies:
-    "@chainlink/contracts": ^0.5.1
-    "@chainlink/test-helpers": ^0.0.7-alpha
-    "@chainlink/token": ^1.1.0
-    "@ethersproject/abi": ^5.7.0
-    "@ethersproject/address": ^5.7.0
-    "@ethersproject/bignumber": ^5.7.0
-    "@ethersproject/bytes": ^5.7.0
-    "@ethersproject/constants": ^5.7.0
-    "@ethersproject/contracts": ^5.7.0
-    "@ethersproject/hash": ^5.7.0
-    "@ethersproject/providers": ^5.7.1
-    "@ethersproject/solidity": ^5.7.0
-    "@ethersproject/transactions": ^5.7.0
-    "@ethersproject/wallet": ^5.7.0
-    "@ethersproject/web": ^5.7.1
-    "@nomiclabs/hardhat-ethers": "npm:hardhat-deploy-ethers@^0.3.0-beta.13"
-    "@nomiclabs/hardhat-etherscan": ^3.1.0
-    "@nomiclabs/hardhat-waffle": ^2.0.3
-    "@openzeppelin/contracts": ^4.7.3
-    babel-eslint: ^10.1.0
-    chai: ^4.3.6
-    dotenv: ^16.0.3
-    ethereum-waffle: ^3.4.4
-    ethers: ^5.7.1
-    hardhat: ^2.11.2
-    hardhat-contract-sizer: ^2.6.1
-    hardhat-deploy: ^0.11.15
-    hardhat-deploy-ethers: ^0.3.0-beta.13
-    hardhat-gas-reporter: ^1.0.9
-    mocha: ^10.1.0
-    mocha-junit-reporter: ^2.1.1
-    prettier: ^2.7.1
-    prettier-plugin-solidity: ^1.0.0-rc.1
-    solhint: ^3.3.7
-    solidity-coverage: ^0.8.2
-    yarn: ^1.22.19
-  languageName: unknown
-  linkType: soft
 
 "run-async@npm:^2.2.0":
   version: 2.4.1
